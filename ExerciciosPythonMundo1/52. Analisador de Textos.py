@@ -1,0 +1,6 @@
+frase = str(input('Por favor, digite seu nome completo: '))
+print(frase.upper())
+print(frase.lower())
+print(len(frase))
+dividido = frase.split()
+print(dividido[0])
